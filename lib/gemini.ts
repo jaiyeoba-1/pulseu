@@ -1,5 +1,5 @@
 // Try a stable model first, fall back to others if one is overloaded.
-const MODELS = ["gemini-flash-latest"];
+const MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-flash-latest"];
 
 const SCHEMA={type:"OBJECT",properties:{
   summary:{type:"STRING"},
