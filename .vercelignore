@@ -1,0 +1,6 @@
+.env*
+node_modules
+.next
+.git
+_src_check.tgz
+.buildcheck
